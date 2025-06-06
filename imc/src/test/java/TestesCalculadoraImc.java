@@ -41,7 +41,16 @@ public class TestesCalculadoraImc {
         Assert.assertEquals("Obesidade grau II",calc.calcularIMC(115.30,1.7,66,"h"));//idosos homens
         Assert.assertEquals("Obesidade grau III (obesidade mórbida)",calc.calcularIMC(118.5,1.7,66,"h"));//idosos homens
         Assert.assertEquals("Baixo peso",calc.calcularIMC(56.0,1.6,66,"m"));//idosos mulheres
-        Assert.assertEquals("Peso normal",calc.calcularIMC(56.3,1.6,66,"m"));//idosos mulheres
+        Assert.assertEquals("Peso normal",calc.calcularIMC(56.8,1.6,66,"m"));//idosos mulheres
+        Assert.assertEquals("Peso normal",calc.calcularIMC(69.1,1.6,66,"m"));//idosos mulheres
+        Assert.assertEquals("Sobrepeso",calc.calcularIMC(69.39,1.6,66,"m"));//idosos mulheres
+        Assert.assertEquals("Sobrepeso",calc.calcularIMC(81.92,1.6,66,"m"));//idosos mulheres
+        Assert.assertEquals("Obesidade grau I",calc.calcularIMC(82.18,1.6,66,"m"));//idosos mulheres
+        Assert.assertEquals("Obesidade grau I",calc.calcularIMC(94.72,1.6,66,"m"));//idosos mulheres
+        Assert.assertEquals("Obesidade grau II",calc.calcularIMC(94.98,1.6,66,"m"));//idosos mulheres
+        Assert.assertEquals("Obesidade grau II",calc.calcularIMC(107.26,1.6,66,"m"));//idosos mulheres
+        Assert.assertEquals("Obesidade grau III (obesidade mórbida)",calc.calcularIMC(107.78,1.6,66,"m"));//idosos mulheres
+
 
 
 
